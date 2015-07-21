@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController">
+            <connections>
+                <outlet property="AISubs" destination="aB0-pd-ZZA" id="4g1-ee-7gL"/>
+                <outlet property="addMoreComment" destination="kpM-Ah-eL0" id="HLz-kN-YWB"/>
+                <outlet property="btnSubs" destination="hbq-nX-xjY" id="He7-Aj-K9I"/>
+                <outlet property="ivChannelLogo" destination="Yn9-Vp-Fbf" id="LnG-pu-gRH"/>
+                <outlet property="ivDisLike" destination="Xtb-Eu-i0V" id="HpV-SJ-5Wc"/>
+                <outlet property="ivLike" destination="e9K-Rb-m2E" id="cdk-uc-hdu"/>
+                <outlet property="ivRepeat" destination="mVz-RV-DEq" id="3Gr-sF-U7z"/>
+                <outlet property="lblChannelTitle" destination="Ke7-nc-1dg" id="Ehr-jr-cot"/>
+                <outlet property="lblFav" destination="h2t-jQ-B5w" id="XdR-KV-2Ff"/>
+                <outlet property="lblLikeDislike" destination="64Y-Y5-ClN" id="10q-Z8-lLN"/>
+                <outlet property="lblPublishedAt" destination="dey-5W-oEP" id="qxn-5Z-1KP"/>
+                <outlet property="lblVideoTitle" destination="81A-zl-6Ku" id="EP0-Rs-6Bn"/>
+                <outlet property="pvLikeDislikes" destination="EUN-7f-bvh" id="rcq-Al-iZ4"/>
+                <outlet property="spinner" destination="2PC-tR-k2w" id="a8P-yB-QpD"/>
+                <outlet property="tabView" destination="ENL-lQ-FvV" id="LvZ-JW-0l7"/>
+                <outlet property="tabarMenu" destination="18I-ok-KFt" id="pBp-hf-XAS"/>
+                <outlet property="tvComments" destination="S8X-Wt-TNo" id="9Nj-OM-cLY"/>
+                <outlet property="tvDescription" destination="dO5-Qv-tlG" id="bkG-RL-sKO"/>
+                <outlet property="tvSuggestions" destination="6ge-HV-6Bh" id="vJa-0U-PLP"/>
+                <outlet property="videoView" destination="N1p-3T-sbL" id="ZKJ-pD-GtB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewInfo" destination="T1s-kX-Ngv" id="iV1-Tf-NTE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view autoresizesSubviews="NO" contentMode="scaleToFill" id="N1p-3T-sbL" userLabel="VideView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="197"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.091157203569999998" green="0.090716830600000006" blue="0.091597576530000002" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view multipleTouchEnabled="YES" contentMode="scaleAspectFit" id="T1s-kX-Ngv" userLabel="Info" customClass="UIScrollView">
+                    <rect key="frame" x="0.0" y="239" width="320" height="274"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="l9U-aP-KfD">
+                            <rect key="frame" x="0.0" y="48" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.87588778409090906" green="0.87588778409090906" blue="0.87588778409090906" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="81A-zl-6Ku">
+                            <rect key="frame" x="8" y="50" width="300" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.96999999999999997" id="EUN-7f-bvh">
+                            <rect key="frame" x="8" y="83" width="150" height="2"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="progressTintColor" red="0.0" green="0.78039222959999999" blue="0.1215686351" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="trackTintColor" red="0.70174330470000001" green="0.079990390950000004" blue="0.1236570571" alpha="1" colorSpace="calibratedRGB"/>
+                        </progressView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="64Y-Y5-ClN">
+                            <rect key="frame" x="8" y="91" width="200" height="15"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h2t-jQ-B5w">
+                            <rect key="frame" x="220" y="92" width="92" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="dO5-Qv-tlG">
+                            <rect key="frame" x="8" y="114" width="304" height="130"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Yn9-Vp-Fbf">
+                            <rect key="frame" x="8" y="4" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ke7-nc-1dg" userLabel="ChannelTitle">
+                            <rect key="frame" x="61" y="4" width="130" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dey-5W-oEP" userLabel="PublishedAT">
+                            <rect key="frame" x="61" y="24" width="140" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.729411780834198" green="0.729411780834198" blue="0.729411780834198" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hbq-nX-xjY" customClass="SubcriberButton">
+                            <rect key="frame" x="200" y="9" width="110" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="6" maxY="0.0"/>
+                            <state key="normal" title="Subcribe" image="mt_subscribe_icon.png">
+                                <color key="titleColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnSubs:" destination="-1" eventType="touchUpInside" id="6Mk-29-2Wx"/>
+                            </connections>
+                        </button>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" id="aB0-pd-ZZA" userLabel="AIsubs">
+                            <rect key="frame" x="252" y="14" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="6ge-HV-6Bh">
+                    <rect key="frame" x="0.0" y="235" width="320" height="278"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="1Pg-17-YbU"/>
+                        <outlet property="delegate" destination="-1" id="cZF-Hu-u4k"/>
+                    </connections>
+                </tableView>
+                <tableView hidden="YES" clipsSubviews="YES" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="S8X-Wt-TNo" userLabel="Comments">
+                    <rect key="frame" x="0.0" y="238" width="320" height="309"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.91372555494308472" green="0.91372555494308472" blue="0.91372555494308472" alpha="1" colorSpace="deviceRGB"/>
+                    <view key="tableHeaderView" autoresizesSubviews="NO" contentMode="scaleAspectFit" id="EXA-MI-eu1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="41"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kpM-Ah-eL0">
+                                <rect key="frame" x="5" y="2" width="310" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                <state key="normal" title="Add a comment">
+                                    <color key="titleColor" red="0.38171409830000003" green="0.39534053409999997" blue="0.4438131313" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addComent:" destination="-1" eventType="touchUpInside" id="Anl-w3-8KZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="tRv-5S-RED"/>
+                        <outlet property="delegate" destination="-1" id="fW7-H9-22v"/>
+                    </connections>
+                </tableView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" id="2PC-tR-k2w">
+                    <rect key="frame" x="150" y="286" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </activityIndicatorView>
+                <view contentMode="scaleToFill" id="18I-ok-KFt" userLabel="likedDslikeMenu">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_repeat_icon.png" id="mVz-RV-DEq" userLabel="Repeat">
+                            <rect key="frame" x="35" y="3" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_like_iocn.png" id="e9K-Rb-m2E" userLabel="Like">
+                            <rect key="frame" x="191" y="3" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="details_dislike_iocn.png" id="Xtb-Eu-i0V" userLabel="Dislike">
+                            <rect key="frame" x="270" y="3" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YkT-UC-Cxd" userLabel="btnRepeat">
+                            <rect key="frame" x="21" y="0.0" width="50" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="videoLikeDislikeEtc:" destination="-1" eventType="touchUpInside" id="boP-Rk-Sq5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="emx-D7-dGq" userLabel="btnLike">
+                            <rect key="frame" x="176" y="-1" width="50" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="videoLikeDislikeEtc:" destination="-1" eventType="touchUpInside" id="rDa-5o-Uxi"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="B3k-KV-hos" userLabel="btnDislike">
+                            <rect key="frame" x="255" y="0.0" width="50" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="videoLikeDislikeEtc:" destination="-1" eventType="touchUpInside" id="Ob7-f2-tdA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8uJ-St-x31" userLabel="btnAddTo">
+                            <rect key="frame" x="107" y="-2" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="cc_in.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="ENL-lQ-FvV">
+                    <rect key="frame" x="0.0" y="197" width="320" height="42"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="nnk-KW-mmh">
+                            <rect key="frame" x="0.0" y="41" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.81176470590000005" green="0.81176470590000005" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96862745100000003" green="0.0" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cc_in.png" width="64" height="64"/>
+        <image name="details_dislike_iocn.png" width="30" height="30"/>
+        <image name="details_like_iocn.png" width="30" height="30"/>
+        <image name="details_repeat_icon.png" width="28" height="26"/>
+        <image name="mt_subscribe_icon.png" width="16" height="16"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

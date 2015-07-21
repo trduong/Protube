@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3AD13968-DF03-4E28-BF76-EEA9D5DB1D7B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ProTubeClone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3BEAEC8F066AD464EB2DEA0781A4FC0CFF1F8C59</key>
+		<string>https://git.codebreak.com/quanghoang0101/ProTube.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ProTubeClone.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3BEAEC8F066AD464EB2DEA0781A4FC0CFF1F8C59</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.codebreak.com/quanghoang0101/ProTube.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3BEAEC8F066AD464EB2DEA0781A4FC0CFF1F8C59</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3BEAEC8F066AD464EB2DEA0781A4FC0CFF1F8C59</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ProTube-Menu-New</string>
+		</dict>
+	</array>
+</dict>
+</plist>

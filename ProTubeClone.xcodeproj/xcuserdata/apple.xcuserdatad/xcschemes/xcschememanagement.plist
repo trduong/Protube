@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ProTubeClone copy 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>ProTubeClone copy copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>ProTubeClone copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>ProTubeClone.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>184D3A9519A46E2200391266</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>184D3B0319A4767000391266</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>184D3B5E19A4767600391266</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1868736419950CCA00A43A13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1868737F19950CCA00A43A13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -50,7 +50,7 @@ extern BOOL isPlaylistItem;
 #define API_URL @"https://www.googleapis.com"
 
 // Google
-#define GOOGLE_KEY  @"AIzaSyADMJu_68msQpWhuHv3b3xeodcOpYZCRyI"
+#define GOOGLE_KEY  @"AIzaSyCA2kHFTTK9WqVFOpfqbRhpeoeSsMt3k5c"
 
 // Notification
 #define gNotificationVideoSelected      @"NotificationVideoSelected"

@@ -43,7 +43,6 @@
 		183F6DC319B48B7200F82E28 /* details_repeat_icon_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 183F6DC019B48B7200F82E28 /* details_repeat_icon_sel.png */; };
 		184163A919B61ECC00992643 /* details_add_to_fav_iocn_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 184163A819B61ECC00992643 /* details_add_to_fav_iocn_sel.png */; };
 		184163AB19B6216D00992643 /* details_icon_tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 184163AA19B6216D00992643 /* details_icon_tick.png */; };
-		18478C8C19A6193E005A37A6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18478C8B19A6193E005A37A6 /* CoreData.framework */; };
 		18478C8F19A619FD005A37A6 /* ProTubeClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18478C8D19A619FD005A37A6 /* ProTubeClone.xcdatamodeld */; };
 		18661AA5199A04D300CBC368 /* blockAV.m in Sources */ = {isa = PBXBuildFile; fileRef = 18661AA4199A04D300CBC368 /* blockAV.m */; };
 		1868736919950CCA00A43A13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1868736819950CCA00A43A13 /* Foundation.framework */; };
@@ -53,11 +52,6 @@
 		1868737519950CCA00A43A13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868737419950CCA00A43A13 /* main.m */; };
 		1868737919950CCA00A43A13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868737819950CCA00A43A13 /* AppDelegate.m */; };
 		1868737B19950CCA00A43A13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1868737A19950CCA00A43A13 /* Images.xcassets */; };
-		1868738219950CCA00A43A13 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1868738119950CCA00A43A13 /* XCTest.framework */; };
-		1868738319950CCA00A43A13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1868736819950CCA00A43A13 /* Foundation.framework */; };
-		1868738419950CCA00A43A13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1868736C19950CCA00A43A13 /* UIKit.framework */; };
-		1868738C19950CCA00A43A13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1868738A19950CCA00A43A13 /* InfoPlist.strings */; };
-		1868738E19950CCA00A43A13 /* ProTubeCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868738D19950CCA00A43A13 /* ProTubeCloneTests.m */; };
 		1868739F19951D9F00A43A13 /* bottom-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1868739D19951D9F00A43A13 /* bottom-bg.png */; };
 		186873A019951D9F00A43A13 /* top-strip.png in Resources */ = {isa = PBXBuildFile; fileRef = 1868739E19951D9F00A43A13 /* top-strip.png */; };
 		1875FF4C1996395500BF2974 /* content-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1875FF4B1996395500BF2974 /* content-bg.png */; };
@@ -358,16 +352,6 @@
 		CBF002081A73F482000DAF24 /* LBYouTubePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF002061A73F482000DAF24 /* LBYouTubePlayerViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1868738519950CCA00A43A13 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1868735D19950CCA00A43A13 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1868736419950CCA00A43A13;
-			remoteInfo = ProTubeClone;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		181E9D8019ADC3EA00167BEE /* More.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = More.plist; sourceTree = "<group>"; };
 		181E9D8219ADE09800167BEE /* 76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76x76.png; sourceTree = "<group>"; };
@@ -434,7 +418,6 @@
 		1868737719950CCA00A43A13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1868737819950CCA00A43A13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1868737A19950CCA00A43A13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1868738019950CCA00A43A13 /* ProTubeCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProTubeCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1868738119950CCA00A43A13 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1868738919950CCA00A43A13 /* ProTubeCloneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProTubeCloneTests-Info.plist"; sourceTree = "<group>"; };
 		1868738B19950CCA00A43A13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -860,17 +843,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1868737D19950CCA00A43A13 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18478C8C19A6193E005A37A6 /* CoreData.framework in Frameworks */,
-				1868738219950CCA00A43A13 /* XCTest.framework in Frameworks */,
-				1868738419950CCA00A43A13 /* UIKit.framework in Frameworks */,
-				1868738319950CCA00A43A13 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -923,7 +895,6 @@
 			isa = PBXGroup;
 			children = (
 				1868736519950CCA00A43A13 /* ProTubeClone.app */,
-				1868738019950CCA00A43A13 /* ProTubeCloneTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1777,24 +1748,6 @@
 			productReference = 1868736519950CCA00A43A13 /* ProTubeClone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1868737F19950CCA00A43A13 /* ProTubeCloneTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1868739419950CCA00A43A13 /* Build configuration list for PBXNativeTarget "ProTubeCloneTests" */;
-			buildPhases = (
-				1868737C19950CCA00A43A13 /* Sources */,
-				1868737D19950CCA00A43A13 /* Frameworks */,
-				1868737E19950CCA00A43A13 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1868738619950CCA00A43A13 /* PBXTargetDependency */,
-			);
-			name = ProTubeCloneTests;
-			productName = ProTubeCloneTests;
-			productReference = 1868738019950CCA00A43A13 /* ProTubeCloneTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1805,16 +1758,12 @@
 				ORGANIZATIONNAME = "Future Work";
 				TargetAttributes = {
 					1868736419950CCA00A43A13 = {
-						DevelopmentTeam = RBVH72H5WP;
+						DevelopmentTeam = B399DL2JNG;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
 							};
 						};
-					};
-					1868737F19950CCA00A43A13 = {
-						DevelopmentTeam = RBVH72H5WP;
-						TestTargetID = 1868736419950CCA00A43A13;
 					};
 				};
 			};
@@ -1831,7 +1780,6 @@
 			projectRoot = "";
 			targets = (
 				1868736419950CCA00A43A13 /* ProTubeClone */,
-				1868737F19950CCA00A43A13 /* ProTubeCloneTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2068,14 +2016,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1868737E19950CCA00A43A13 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1868738C19950CCA00A43A13 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -2216,23 +2156,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1868737C19950CCA00A43A13 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1868738E19950CCA00A43A13 /* ProTubeCloneTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1868738619950CCA00A43A13 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1868736419950CCA00A43A13 /* ProTubeClone */;
-			targetProxy = 1868738519950CCA00A43A13 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1868737119950CCA00A43A13 /* InfoPlist.strings */ = {
@@ -2334,7 +2258,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Quynh Nguyen (EQ48ZLNE74)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Resources/Libs/Google",
@@ -2380,7 +2304,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2a794113-e132-4d82-9930-b04184faf3f4";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -2395,7 +2319,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Quynh Nguyen (EQ48ZLNE74)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Resources/Libs/Google",
@@ -2441,56 +2365,10 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2a794113-e132-4d82-9930-b04184faf3f4";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		1868739519950CCA00A43A13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProTubeClone.app/ProTubeClone";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ProTubeClone/ProTubeClone-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ProTubeCloneTests/ProTubeCloneTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		1868739619950CCA00A43A13 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProTubeClone.app/ProTubeClone";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ProTubeClone/ProTubeClone-Prefix.pch";
-				INFOPLIST_FILE = "ProTubeCloneTests/ProTubeCloneTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -2511,15 +2389,6 @@
 			buildConfigurations = (
 				1868739219950CCA00A43A13 /* Debug */,
 				1868739319950CCA00A43A13 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1868739419950CCA00A43A13 /* Build configuration list for PBXNativeTarget "ProTubeCloneTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1868739519950CCA00A43A13 /* Debug */,
-				1868739619950CCA00A43A13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
